@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.imgContainer {
+  position: relative;
+  text-align: center;
+}
+
+.imgText {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cart {
+  z-index: 10;
+  position: absolute;
+  width: 25%;
+  top: 1rem;
+  right: -1rem;
+  transform: translate(-16%, -50%);
+}
+
+.detail {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
